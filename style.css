@@ -1,0 +1,229 @@
+/* farverkoder som måske skal bruges 
+
+#9ceaff lys nyance a blå
+#dd8136 orange farve fra panterens øje 
+#b0b1b3 en grå neutral 
+#7da1d3 lys blå farve blandet med grå  
+#fbedc5 en meget lys beige farve 
+#181b25 mørk farve som baggrund, en stærk baggrund.
+#a0140f nuance af rød energi 
+#e7a032 en gul farve, varm farve. 
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+body{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom: 2%;
+    background-image:linear-gradient(to bottom, rgba(87, 139, 202, 0.495), rgba(255,0,0,1));
+    
+    
+    }
+
+/*header starter her*/
+
+.header_navigation{
+    display: flex;
+    justify-content: center;
+    margin-top:1%;
+    
+
+    
+      
+   
+
+}
+
+.header_navbar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+    
+    
+}
+
+.nav_ikon{
+    
+    padding:0px 25px 0px 25px;
+    width: 100%;
+    margin-left:1px;
+    margin-right:1px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#9ceaff  ;
+    background-color:#181b25;
+    border-radius:10px 10px 0 0;
+    
+    
+}
+.nav_ikon:hover{
+    
+    text-transform: uppercase;
+    color:#9ceaff ;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+/*main start*/ 
+
+.main_box_tekst{
+    color:black;
+    text-align: center;
+  
+}
+
+.main_box_billede{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    
+    
+
+}
+/*  forsøger at tilføje nogle af farverne fra mit moodboard som kan være relevant 
+for budskabet, derfor prøver jeg med at tilføje en skygge med rød farve(styrke)  */ 
+.main_billede{
+    max-width: 100%;
+    border:0px;
+    border-radius:10%;
+    box-shadow:0px 0px 20px 10px rgba(255, 0, 0, 0.619);
+    margin-top:4%;
+}
+
+.ny_artikel{
+    color: black;
+    text-align: center;
+}
+
+/*----footer start----*/
+.side_footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    height: 4rem;
+    text-align:center;
+    border:2px solid black;
+    padding-top: 15px;
+    padding-bottom:15px;
+    margin-top: 10%;
+    margin-bottom:1%;
+    color:#dd8136;
+    border-radius: 0 0 10px 10px;
+    background-color: #181b25;
+    
+    
+}
+
+.p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer_tekst{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_logo{
+    width: 32px;
+    height:32px; 
+    
+}
+
+
+/*------footer slut----*/
+
+/* artikel siden, her vil css inholdet af indexartikler befinde sig*/
+
+.art_box{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    justify-content: flex start;
+    
+    
+    
+
+    
+}
+.art_box_indhold{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.art_link{
+    display: flex;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #181b25 ;
+    margin-top: 4rem;
+    margin-bottom:4rem;
+    color:#dd8136;
+    margin-top:0;
+    height: 12rem;
+    border:4px solid #181b25;
+    
+    
+}
+
+.artikel_pic{
+    height:12rem;
+    width:14rem;
+    
+    
+    
+    
+}
+
+.box_text{
+    display: block;
+    border:0;
+    
+    width:100%;
+
+        
+}
+
+.box_textp{
+    list-style: none;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+/*   css til de forskellige artikler   */
+.artikel_side_billede1{
+    width:300px;
+    height:250px;
+    border-radius: 10px;
+    
+   
+}
+.artikel_side_billede2{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    
+    
+}
+.artikel_box_1{
+    line-height: 2em;
+}
+
+.fællesskab_liste{
+    list-style:outside;
+}
